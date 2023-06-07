@@ -5,7 +5,7 @@ variable "amiid" {
 
 variable "instancetype" {
   type    = string
-   default = "t2.micro"
+   default = "t2.nano"
 }
 
 variable "az" {
